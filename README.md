@@ -9,7 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 `npm i -g @angular/cli`
 execute `ng version` command to check angular installation
 
-## Building the Application
+## Building the Application.
 
 1.use `ng build` command to build the project.
 2.use `ng build --configuration production` command to build the project(production ready build).
@@ -21,6 +21,7 @@ execute `ng version` command to check angular installation
 
 ## my configuration and versions used are below
 
+`
 PS C:\Z_VICKY\angular\UserInformation> ng version
 
      _                      _                 ____ _     ___ 
@@ -52,3 +53,4 @@ rxjs                            7.8.0
 typescript                      4.9.5
 
 PS C:\Z_VICKY\angular\UserInformation> 
+`
