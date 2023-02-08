@@ -2,26 +2,53 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
 
-## Development server
+## Installation Steps.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1.Download and Install node js and check using command `node -v`
+2.Open command prompt and execute below command to Install Angular cli
+`npm i -g @angular/cli`
+execute `ng version` command to check angular installation
 
-## Code scaffolding
+## Building the Application
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1.use `ng build` command to build the project.
+2.use `ng build --configuration production` command to build the project(production ready build).
 
-## Build
+## How to run the Application Locally.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+1.Open vs code and navigate to your project folder and execute `npm i`command in vs code terminal(ctrl+`), so a node_modules folder will be generated.
+2.Then run `ng serve -o` to run the project in local development server mode, by default port is http://localhost:4200/
 
-## Running unit tests
+## my configuration and versions used are below
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+PS C:\Z_VICKY\angular\UserInformation> ng version
 
-## Running end-to-end tests
+     _                      _                 ____ _     ___ 
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | | 
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | | 
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+    
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Angular CLI: 15.1.4
+Node: 16.19.0
+Package Manager: npm 8.19.3
+OS: win32 x64
 
-## Further help
+Angular: 15.1.3
+... animations, common, compiler, compiler-cli, core, forms
+... platform-browser, platform-browser-dynamic, router
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Package                         Version
+---------------------------------------------------------
+@angular-devkit/architect       0.1501.4
+@angular-devkit/build-angular   15.1.4
+@angular-devkit/core            15.1.4
+@angular-devkit/schematics      15.1.4
+@angular/cli                    15.1.4
+@schematics/angular             15.1.4
+rxjs                            7.8.0
+typescript                      4.9.5
+
+PS C:\Z_VICKY\angular\UserInformation> 
