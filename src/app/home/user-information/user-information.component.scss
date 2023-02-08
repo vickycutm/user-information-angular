@@ -1,0 +1,23 @@
+p {
+  margin: 1% 2.5% 1% 2.5%;
+  font-weight: 900;
+  font-size: larger;
+  letter-spacing: 0.7px;
+}
+table {
+  margin: 0.5% 2.5%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 95%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}

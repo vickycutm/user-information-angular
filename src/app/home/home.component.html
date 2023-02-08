@@ -1,0 +1,7 @@
+<div class="menu">
+    <ul>
+        <li *ngFor="let item of menus; let i = index;" (click)="goTo(item.path)"
+            [ngClass]="{'active': selectedPath === item.path}"> {{item.menu}}</li>
+    </ul>
+</div>
+<router-outlet></router-outlet>
